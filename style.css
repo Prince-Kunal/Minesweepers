@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 20vh;
+    width: 100vw;
+    background-color: #F6AA1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-box{
+    height: 10vh;
+    width: 50vw;
+    background-color: #941B0C;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.5rem 0.5rem #220901;
+}
+
+.heading-box:hover{
+    background-color: #BD240F;
+}
+
+.heading-box:active{
+    background-color: #941B0C;
+    position: relative;
+    top: 0.5rem;
+    right: -0.5rem;
+    box-shadow: none;
+}
+
+.heading{
+    color: #220901;
+    font-size: 3rem;
+}
+
+.main{
+    background-color: #F6AA1C;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-box{
+    border: 1px solid black;
+    height: 25.9rem;
+    width: 25.96rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0.75rem 0.75rem #220901;
+}
+
+.box{
+    height: 5rem;
+    width: 5rem;
+    background-color: #941B0C;
+    border: 0.1rem solid black;
+}
+
+.box:hover{
+    background-color: #BD240F;
+}
+
+/* .box:active{
+    background-color: #5E1608;
+} */
+
+.footer{
+    background-color: #F6AA1C;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.restart{
+    height: 7.5vh;
+    width: 7.5vw;
+    background-color: #941B0C;
+    border: 2px solid black;
+    box-shadow: 0.25rem 0.25rem #220901;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.restart:hover{
+    background-color: #BD240F;
+}
+
+.restart:active{
+    background-color: #941B0C;
+    position: relative;
+    top: 0.25rem;
+    right: -0.25rem;
+    box-shadow: none;
+}
+
+.clicked{
+    background-color: #5E1608;
+}
